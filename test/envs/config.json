@@ -1,0 +1,128 @@
+{
+  "envAddress": "https://alyzohub.developers.cyberproof.dev",
+  "users": {
+    "admin": {
+      "username": "alyzohub-admin",
+      "email": "alyzohub-admin@cyberproof.io",
+      "password": "fl2rhCbePpPxQS7rfoWcodbq0auiPiFb",
+      "displayName": "System Admin",
+      "firstName": "System Admin",
+      "lastName": "",
+      "userId": "63e2108472b07ddfc5e40947",
+      "avatarInitials": "SA",
+      "loginMethod": "local",
+      "public_api_key": "Vb37hulLzhmScjImhdqIAlHiKsW4o6XW"
+    },
+    "adminAAD": {
+      "username": "alyzohub-admin",
+      "email": "alyzohub-admin@cyberproof.io",
+      "password": "fl2rhCbePpPxQS7rfoWcodbq0auiPiFb",
+      "displayName": "System Admin",
+      "firstName": "System Admin",
+      "lastName": "",
+      "userId": "63e2108472b07ddfc5e40947",
+      "avatarInitials": "SA",
+      "loginMethod": "local",
+      "public_api_key": "Vb37hulLzhmScjImhdqIAlHiKsW4o6XW"
+    },
+    "L1_User": {
+      "username": "l1-user",
+      "email": "l1-user@keycloak.local",
+      "password": "gJLeELjSSPDAbDD0HEiwHOcsetTFjis5",
+      "displayName": "L1 User",
+      "firstName": "L1",
+      "lastName": "User",
+      "nameSurname": "L1",
+      "userId": "63e2108472b07ddfc5e4094c",
+      "avatarInitials": "LU",
+      "loginMethod": "local",
+      "public_api_key": "GRHgYNhzIHdmAWVDlybfC54u7KIrzI4T"
+    },
+    "L2_User": {
+      "username": "l2-user",
+      "email": "l2-user@keycloak.local",
+      "password": "gJLeELjSSPDAbDD0HEiwHOcsetTFjis5",
+      "displayName": "L2 User",
+      "firstName": "L2",
+      "lastName": "User",
+      "userId": "63e2108472b07ddfc5e4094f",
+      "avatarInitials": "LU",
+      "loginMethod": "local",
+      "public_api_key": "7o58s08JGBcFmjdZ8ACm7YsngyfX9YiG"
+    },
+    "customer": {
+      "username": "customer-user",
+      "email": "customer-user@keycloak.local",
+      "password": "gJLeELjSSPDAbDD0HEiwHOcsetTFjis5",
+      "displayName": "Customer User",
+      "firstName": "Customer",
+      "lastName": "User",
+      "userId":"63e2108472b07ddfc5e40948",
+      "avatarInitials": "CU",
+      "loginMethod": "local",
+      "public_api_key": "8PGR8rkwikRM8eyYeo8XIJTd1b0BMdcU"
+    },
+    "public_api_user": {
+      "username": "public-api-user",
+      "email": "public-api-user@keycloak.local",
+      "displayName": "Public-API User",
+      "firstName": "Public-API",
+      "lastName": "User",
+      "userId": "63e2108472b07ddfc5e40952",
+      "loginMethod": "local",
+      "public_api_key": "ZbEvOO8oHvGE206E4kcIBVNFC0fFSqAq"
+    },
+    "seemo": {
+      "username": "seemo",
+      "email": "seemo@cyberproof.io",
+      "displayName": "SeeMo",
+      "nameSurname": "",
+      "firstName": "SeeMo",
+      "lastName": "",
+      "userId": "63e2108472b07ddfc5e40956",
+      "loginMethod": "local",
+      "public_api_key": "SRK9xoSfPGXgtl5MTsaH5Jdt9uqn5Rq9"
+    }
+
+  },
+  "defaultLoginMethod": "local",
+  "db": {
+    "dbName": "alyzohub-backend",
+    "dbAnalytics": "alyzohub-analytics",
+    "dbURL": "mongodb://root:zYZO5Fe4D3bD3Zb3@mongodb50-0.developers.cyberproof.dev:27017,mongodb50-1.developers.cyberproof.dev:27017,mongodb50-2.developers.cyberproof.dev:27017/alyzohub-backend?authSource=admin&replicaSet=rs0"
+  },
+  "public_api_key": "Vb37hulLzhmScjImhdqIAlHiKsW4o6XW",
+  "keycloak_public_key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyf25GcXxuj+mZ8ad5UHJisZ8Tb6w54uS54YrB8EOH6jk8Rqn9C/34KVOzOavgL4FME0xSZOouHT5feLopQ+JdfBeVIp01wlyrlOLRmHgGSnYnZF3fA51M7CQqp8VjxfUFDFrM6HWEiMEH3/bJMnOXpYPK95JrLS6KoJVV5jP7oap3tqOn3mWy+Of/h+tKLZpKdVQ1eL+2lcNLPUpOGdIxR6ouIS5TeUIuhm2KNHTD3Ii2vT8h9gcgDB7lWax8shhWJ5xA83TPwNMrRi0CtCJ7wEEEBE/QrSu8h6UTroDBxtjkthUI+nfvDueRmIM75y5Yy7VNFtn1uV8BAVzfnUKSwIDAQAB",
+  "keycloakConfig": {
+    "baseUrl": "https://keycloak.developers.cyberproof.dev/",
+    "url": "https://sso.developers.cyberproof.dev",
+    "realmName": "alyzohub",
+    "realmMaster": {
+      "username": "master",
+      "password": "F9BQs48IWflvJyjk4BEsAI0gGorApDdn"
+      },
+    "clients": {
+      "adminCli": "admin-cli",
+      "backend": {
+        "clientId": "cpp-config-client",
+        "clientSecret": "DUyLc8PMTTFOGin8tWTkLv5TbcsIPyTh"
+      },
+      "frontend": "cpp-frontend"
+    }
+  },
+  "mockups": {
+    "baseurl": {
+      "fastapi": "https://mockups-{PACK_NAME}.developers.cyberproof.dev",
+      "flask": "https://mockups.developers.cyberproof.dev/{PACK_NAME}"
+    }
+  },
+  "rabbitmq": {
+    "amqpURL": "amqp://alyzohub:6WLIgtubjigNXtuUilcggf7FxLoUr4rI@ingress-external-services.developers.cyberproof.dev:5672/alyzohub"
+  },
+  "stackstorm": {
+    "endpoint": "https://alyzohub-stackstorm.developers.cyberproof.dev",
+    "username": "st2admin",
+    "password": "BA49nB0AWuOJ1XGSULXtFFRwmp0CZzph",
+    "api_token": "OTM1MzFkOGYwY2EyMjI3ZDc5MzRkZjIzNDcwMjgwOTI0Y2U5NDljODRmMDcyZThkZDJjNGJkYWNlNjY2ZjJhMg"
+  }
+}

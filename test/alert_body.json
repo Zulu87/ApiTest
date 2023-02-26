@@ -1,0 +1,64 @@
+{
+    "name": "Test Alert",
+    "sourceId": "xdgdfgvgb",
+    "severity": "High",
+    "description": "message  containing alware are delivered to mailboxes in your organization. Office 365 removed the infected messages from Exchange Online mailboxes.",
+    "sourceUrl": "http://10.0.0.90/MySIEM/api/alerts/345ffe9a",
+    "raw": {
+        "attributeInitializationInProgress": false,
+        "createdTime": {
+            "day": {
+                "numberInt": "18"
+            },
+            "hour": {
+                "numberInt": "16"
+            },
+            "milliSecond": {
+                "numberInt": "711"
+            },
+            "minute": {
+                "numberInt": "10"
+            },
+            "month": {
+                "numberInt": "6"
+            },
+            "second": {
+                "numberInt": "47"
+            },
+            "timezoneID": "Israel",
+            "year": {
+                "numberInt": "2017"
+            }
+        },
+        "createdTimestamp": {
+            "numberDouble": "1500383447711"
+        },
+       "deprecated": false,
+        "description": "Customer Name -       CyberProof\nAlert Name - Windows - Multiple failed logins same user same host\nSource Address - 192.168.231.1\nSource Host Name - SHEFA-LAPTOP-DS\nSource Zone Name - RFC1918: 192.168.0.0-192.168.255.255\nSource Asset Name - SHEFA-LAPTOP-DS\nDestination User Name - owner\nDevice Address - 172.31.40.183\nDevice Host Name - ip-172-31-40-183.us-west-2.compute.internal\nDevice Vendor - Microsoft\nDevice Product - Microsoft Windows\nDevice Event Class Id - rule:105\n",
+        "disabled": false,
+        "inCache": true,
+        "inactive": false,
+        "initialized": true,
+        "isAdditionalLoaded": false,
+        "localID": {
+            "numberDouble": "30064798760"
+        },
+        "modificationCount": {
+            "numberInt": "1"
+        }
+    },
+    "observables": [
+        {
+      "type": "email address",
+      "isIoc" : true,
+      "value": "tanin@gmail.com"
+    },
+            {
+      "type": "IPv6 Address",
+      "value": "windows"
+    },
+            {
+      "type": "IPv4 Address",
+      "value": "192.168.45.45"
+    }]
+}

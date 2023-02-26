@@ -1,8 +1,9 @@
-import yaml
+import json
 
 
-def config_setter(file_to_open):
-    with open(file_to_open, 'r') as file:
-        configs = yaml.load(file, Loader=yaml.FullLoader)
+#  оголошуємо фунцію config_json що вміст json файлу представлятиме у вигляді dict
+def config_json(file_to_open):
+    with open(file_to_open ) as config_file:
+        parsed_json = json.load(config_file)
 
-        return configs
+    return parsed_json
